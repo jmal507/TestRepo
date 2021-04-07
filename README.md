@@ -1,2 +1,2 @@
-# My TestRepo
+# My TestRepository
 Hello World
