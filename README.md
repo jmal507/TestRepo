@@ -3,16 +3,18 @@
 Jamal Barrett
 ```
 ```
-## Components
+## Components:
 **Introduction**
 Volga is a website that lists various books. Its users can just see lists of books in various genres. It also displays the query responsible for the data displyed.
 ```
 ```
-## Files
+## Files:
 **index.html**
 User see's this page upon loading. The login must be hardcoded as the implementation for user friendly login is not implemented. From this page there are various links in the left sidebar showing all the current genres within the database. Clicking one of the list elements brings you to a seperate php page where a table of books specific to that element is rendered. On the left sidebar, there is an unfinished attempt at Genre Specific searches through both id and name. Using form data it returns user-specified search results. Those results are posted onto "index.php" and the user is forwarded to that page.
+
 **index.php**
 This page simply displays form data from "index.html".
+
 **getGenre(x).php**
 Each file that starts with getGenre is what appears after a user clicks a genre's respective link from the sidebar on "index.html". The number at the end of the file denotes which genreId is being referenced. Each php file with getGenre uses the same implementation:
 1.) link to the database with harcoded login credentials
